@@ -71,6 +71,21 @@ export const experiences: Experiences[] = [
   },
 ];
 
+export const Educations: Experiences[] = [
+  {
+    title: "Bachelor of Engineering in Software Engineering",
+    company: "London Metropolitan University",
+    yearRange: "Feb 2020 - Jan 2021",
+    description: "Graduated with First Class Honours.",
+  },
+  {
+    title: "Higher National Diploma in Computing",
+    company: "Esoft Metro Campus",
+    yearRange: " Aug 2017 - Dec 2019",
+    description: "Specialized in Software Development.",
+  },
+];
+
 export const projects: Projects[] = [
   {
     title: "Shop Management System",

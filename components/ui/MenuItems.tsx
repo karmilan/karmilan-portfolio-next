@@ -16,6 +16,7 @@ const MenuItems: FC<MenuItemsProps> = ({ setMenuOpen }) => {
   const menuItems: MenuObj[] = [
     { name: "Home", path: "/" },
     { name: "Experience", path: "/experience" },
+    { name: "About", path: "/about" },
     { name: "Projects", path: "/projects" },
     { name: "Contact", path: "/contact" },
   ];
@@ -30,7 +31,7 @@ const MenuItems: FC<MenuItemsProps> = ({ setMenuOpen }) => {
           <Link
             onClick={handleClick}
             href={item.path}
-            className="text-md sm:text-lg  hover:text-teal-600 hover:text-xl"
+            className="text-md sm:text-xl  hover:text-teal-600 hover:text-2xl"
           >
             {item.name}
           </Link>

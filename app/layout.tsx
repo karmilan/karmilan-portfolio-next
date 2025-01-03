@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Karmilan's Portfolio",
   description: "Portfolio to showcase the resume",
+  icons: {
+    icon: "/favicon.png", // Path to your favicon in the public folder
+  },
 };
 
 export default function RootLayout({

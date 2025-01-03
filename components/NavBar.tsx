@@ -32,7 +32,7 @@ const NavBar = () => {
               onClick={handleMenuOpen}
               className="sm:hidden cursor-pointer mr-2"
             />
-            <h1 className="text-sm sm:text-xl font-semibold font-burtons ">
+            <h1 className="text-sm sm:text-2xl font-semibold font-burtons ">
               KARMILAN
             </h1>
           </div>
