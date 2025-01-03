@@ -37,6 +37,7 @@ const Hero = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 m-auto">
         <div className="sm:p-10">
+          <ProgressBar skill="JavaScript" progress="75%" />
           <ProgressBar skill="React" progress="80%" />
           <ProgressBar skill="Next.js" progress="60%" />
           <ProgressBar skill="ReactNative" progress="70%" />
@@ -44,6 +45,7 @@ const Hero = () => {
           <ProgressBar skill="Express" progress="50%" />
         </div>
         <div className="sm:p-10">
+          <ProgressBar skill="TypeScript" progress="70%" />
           <ProgressBar skill="MongoDB" progress="75%" />
           <ProgressBar skill="AWS" progress="50%" />
           <ProgressBar skill="Figma" progress="80%" />
