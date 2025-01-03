@@ -15,10 +15,9 @@ type MenuItemsProps = {
 const MenuItems: FC<MenuItemsProps> = ({ setMenuOpen }) => {
   const menuItems: MenuObj[] = [
     { name: "Home", path: "/" },
-    { name: "Experience", path: "/experience" },
     { name: "About", path: "/about" },
+    { name: "Experience", path: "/experience" },
     { name: "Projects", path: "/projects" },
-    { name: "Contact", path: "/contact" },
   ];
 
   const handleClick = () => {
