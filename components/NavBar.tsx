@@ -32,7 +32,7 @@ const NavBar = () => {
               onClick={handleMenuOpen}
               className="sm:hidden cursor-pointer mr-2"
             />
-            <h1 className="text-sm sm:text-2xl font-semibold font-burtons ">
+            <h1 className="text-lg sm:text-2xl font-semibold font-burtons ">
               KARMILAN
             </h1>
           </div>
@@ -63,7 +63,7 @@ const NavBar = () => {
             </div>
           </div>
         </nav>
-        <div className="block sm:hidden">
+        <div className="block sm:hidden relative">
           {menuOpen && <MenuItems setMenuOpen={setMenuOpen} />}
         </div>
       </div>

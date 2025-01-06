@@ -16,6 +16,7 @@ const MenuItems: FC<MenuItemsProps> = ({ setMenuOpen }) => {
   const menuItems: MenuObj[] = [
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
+    { name: "Skills", path: "/skills" },
     { name: "Experience", path: "/experience" },
     { name: "Projects", path: "/projects" },
   ];
@@ -24,13 +25,13 @@ const MenuItems: FC<MenuItemsProps> = ({ setMenuOpen }) => {
     setMenuOpen(false);
   };
   return (
-    <ul className=" flex items-center flex-col sm:flex-row sm:space-x-6  ">
+    <ul className="flex items-center flex-col sm:flex-row sm:space-x-6 absolute sm:static w-full dark:bg-slate-900 z-10">
       {menuItems.map((item, index) => (
-        <li key={index}>
+        <li key={index} className="mb-4 sm:mb-0">
           <Link
             onClick={handleClick}
             href={item.path}
-            className="text-md sm:text-xl  hover:text-teal-600 hover:text-2xl"
+            className="text-lg sm:text-xl  hover:text-teal-600 hover:text-2xl"
           >
             {item.name}
           </Link>

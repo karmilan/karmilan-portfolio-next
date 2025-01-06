@@ -12,14 +12,14 @@ const ContactCard = () => {
       <div>
         {/* Mobile */}
         <div className="flex items-center space-x-4 mb-4">
-          <FaPhoneAlt className="text-teal-600 dark:text-teal-400 text-xl" />
+          <FaPhoneAlt className="text-teal-600 dark:text-teal-400 text-sm sm:text-md" />
           <p className="text-gray-600 dark:text-gray-400">+94772392866</p>
         </div>
 
         {/* Email */}
         <div className="flex items-center space-x-4 my-4">
           <FaEnvelope className="text-teal-600 dark:text-teal-400 text-xl" />
-          <p className="text-gray-600 dark:text-gray-400">
+          <p className="text-gray-600 dark:text-gray-400 text-sm sm:text-md">
             delftkarmilan@gmail.com
           </p>
         </div>
@@ -27,7 +27,7 @@ const ContactCard = () => {
         {/* Address */}
         <div className="flex items-center space-x-4 mt-4">
           <FaMapMarkerAlt className="text-teal-600 dark:text-teal-400 text-xl" />
-          <p className="text-gray-600 dark:text-gray-400">
+          <p className="text-gray-600 dark:text-gray-400 text-sm sm:text-md">
             18, Collingwood Place, Wellawatte
           </p>
         </div>
@@ -40,7 +40,7 @@ const ContactCard = () => {
           target="_blank"
           className="flex items-center space-x-4 mb-4"
         >
-          <FaGithub className="text-teal-600 dark:text-teal-400 text-xl" />
+          <FaGithub className="text-teal-600 dark:text-teal-400 text-sm sm:text-md" />
           <p className="text-gray-600 dark:text-gray-400">@karmilan</p>
         </a>
 
@@ -50,7 +50,7 @@ const ContactCard = () => {
           target="_blank"
           className="flex items-center space-x-4 mt-4"
         >
-          <FaLinkedin className="text-teal-600 dark:text-teal-400 text-xl" />
+          <FaLinkedin className="text-teal-600 dark:text-teal-400 text-sm sm:text-md" />
           <p className="text-gray-600 dark:text-gray-400">
             @mahendrarasa-karmilan
           </p>

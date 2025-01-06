@@ -1,5 +1,4 @@
 import PageHeading from "@/components/PageHeading";
-import ContactCard from "@/components/ui/ContactCard";
 import ExperienceCard from "@/components/ui/ExperienceCard";
 import { Educations } from "@/types/data";
 
@@ -61,23 +60,6 @@ const About = () => {
                 ))}
               </div>
             </div>
-          </div>
-
-          {/* Call-to-Action */}
-          <div className="text-center mt-4">
-            <h3 className="text-2xl font-semibold mb-4">Let’s Connect!</h3>
-            <p className="text-lg mb-6">
-              If you&apos;d like to collaborate, discuss a project, or just say
-              hello, feel free to reach out.
-            </p>
-          </div>
-
-          <div className="mt-8">
-            {/* Contact Information */}
-            <ContactCard />
-
-            {/* Get in touch */}
-            {/* <GetInTouchForm /> */}
           </div>
         </div>
       </div>
