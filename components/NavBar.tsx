@@ -57,7 +57,7 @@ const NavBar = () => {
             )}
 
             <div>
-              <CustomButton btnLink="https://resume-karmilan.s3.ap-southeast-1.amazonaws.com/Software-Engineer-Resume-Karmilan-v3.pdf">
+              <CustomButton btnLink="https://resume-karmilan.s3.ap-southeast-1.amazonaws.com/Karmilan_Software_Engineer_Resume.pdf">
                 {/* <CustomButton btnLink="https://www.canva.com/design/DAGkN7GXF1w/NEJBhLv78onYfxqB8AMGGw/view?utm_content=DAGkN7GXF1w&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h52c81dfc94"> */}
                 Resume
               </CustomButton>

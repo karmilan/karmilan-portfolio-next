@@ -28,7 +28,7 @@ const ContactCard = () => {
         <div className="flex items-center space-x-4 mt-4">
           <FaMapMarkerAlt className="text-teal-600 dark:text-teal-400 text-xl" />
           <p className="text-gray-600 dark:text-gray-400 text-sm sm:text-md">
-            18, Collingwood Place, Wellawatte
+            Wellawatte, Colombo
           </p>
         </div>
       </div>
