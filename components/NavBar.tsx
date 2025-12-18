@@ -13,7 +13,7 @@ const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
   console.log(theme);
 
-  const resume = "/Karmilan_Software_Engineer_Resume.pdf";
+  const resume = "/Karmilan_Software_Engineer_Resume_2.pdf";
   // const resume = "https://resume-karmilan.s3.ap-southeast-1.amazonaws.com/Karmilan_Software_Engineer_Resume.pdf";
 
   useEffect(() => {
