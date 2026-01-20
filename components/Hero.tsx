@@ -65,7 +65,7 @@ const Hero = () => {
           <h3 className="text-2xl font-semibold mb-4">Let’s Connect!</h3>
           <p className="text-lg mb-6">
             If you&apos;d like to collaborate, discuss a project, or just say
-            hello, feel free to reach out.
+            hello, feel free to reach out!.
           </p>
         </div>
 
